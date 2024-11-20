@@ -1,0 +1,33 @@
+/* Basic Reset */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#root{
+  height: 100%;
+}
+h1, h2, h3, h4, h5, h6, p, a{
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  text-decoration: none;
+}
+ul, ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+button {
+  cursor: pointer;
+}
+body{
+  background-color: #010101;
+}
